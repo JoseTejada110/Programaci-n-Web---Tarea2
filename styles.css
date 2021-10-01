@@ -1,0 +1,130 @@
+*{
+	margin : 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+	background: #eee;
+	background-size: cover;
+    font-family: 'Century Gothic' , sans-serif;
+}
+
+.container{
+
+	width: 400px;
+	background: #6dc9ff;
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+
+
+.container h1 {
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+	margin: 30px 0 20px;
+}
+
+.container h2 {
+ font-size: 15px ;
+ letter-spacing: 4px ;
+ font-weight: 300px;
+ margin-bottom: 15px;
+}
+
+.container h3 {
+
+	text-align: center;
+
+}
+.secondary-container{
+    width: 50%;
+	background: #6dc9ff;
+	margin: 0 auto;
+	margin-top: 2%;
+	padding: 30px;
+	color: white;
+	text-align: left;
+	border-radius: 15px;
+	
+}
+
+.noVisible{
+	display: none;
+}
+
+.primary{
+	width:50%;
+	margin: 0 auto;
+}
+
+.child{
+	width:100%;
+	margin:0 auto;
+	margin-top:10px;
+
+}
+
+select {
+	width:100%;
+	height:35px;
+	margin-left:10px;
+	margin-bottom:20px;
+	border-radius:15px;
+   text-align: center;
+	
+}
+
+.buttons {
+	width:100%;
+	height:50px;
+	background-color: lightgreen;
+	color: white;
+	margin-left:10px;
+	margin-bottom:20px;
+	border-radius:15px;
+   text-align: center;
+}
+
+.buttons:hover {
+	background-color: white;
+	color: lightgreen;
+	cursor: pointer;
+}
+
+.buttonsdelete{
+	width:100%;
+	height:50px;
+	background-color: red;
+	color: white;
+	margin-left:10px;
+	margin-bottom:20px;
+	border-radius:15px;
+   text-align: center;
+}
+
+.buttonsdelete:hover{
+	background-color: white;
+	color: red;
+	cursor: pointer;
+}
+
+.fields {
+	width:100%;
+	height:50px;
+	margin-left:10px;
+	margin-bottom:20px;
+	border-radius:15px;
+   text-align: center;
+}
+
+
+.text{
+	width: 50%;
+	height:30px;
+}

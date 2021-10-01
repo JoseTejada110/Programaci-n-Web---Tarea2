@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<title>Calculadora con historial</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+	<h1>José Tejada</h1>
+	<h1>2020-10474</h1>
+</div>
+
+<div class="container">
+	<H1>Calculadora</H1>
+</div>
+
+<section class="container">
+	
+ <div class="primary">
+ 	 <div class="child">
+
+ 		<select name="calcular" id="operacion">
+
+ 			<option selected>Operacion</option>
+ 			<option>Suma</option>
+ 			<option>Resta</option>
+ 			<option>Multiplicación</option>
+ 			<option>División</option>
+
+ 		</select>
+ 		
+<input  class="fields" type="text" placeholder="Escribe el primer número" id="n1">
+<input  class="fields" type="text" placeholder="Escribe el segundo número" id="n2">
+<input type="text" class="noVisible" name="calcular" id="respuesta">
+<input class="buttons" type="button" onclick="calcular1()" value="Calcular">
+<input class="buttonsdelete" type="button" onclick="confirTodo()" value="Eliminar Historial">
+ 	</div>
+
+
+</section>
+
+<section class="secondary-container">
+<table class="table">
+	<thead>
+		<tr>
+			
+			<th scope="col">Operación</th>
+			
+			<th scope="col">Resultado</th>
+		</tr>
+	</thead>
+	<tbody id="calculo">
+		
+
+	</tbody>
+
+	<textarea name="" id="cal" class="noVisible" cols="30" rows="10">
+		<tr>
+
+			<td class="text">{operacion}</td>
+			<td class="text">{resultado}</td>
+		</tr>
+	</textarea>
+</table>
+ </div>
+</section>
+	<script src="javascript.js"></script>
+</body>
+</html>
